@@ -10,10 +10,10 @@ Below we can see example communication session.
 Marked in blue - packets sent by server.
 Marked in red - packets sent by client.
 
-Decription of a packet:
-  - O - operation field
-  - S - status field
-  - I - session ID field
-  - T - time stamp field
-  - K - first number field
-  - L - second number field
+Description of a packet:
+  - O - operation field,
+  - S - status field,
+  - I - session ID field,
+  - T - time stamp field,
+  - K - first number field,
+  - L - second number field.

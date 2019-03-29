@@ -3,13 +3,13 @@ import java.net.*;
 import java.util.ArrayList;
 import java.util.Hashtable;
 
-public class Client implements Runnable{
+public class ClientConnect implements Runnable{
 
     private BufferedReader bufferedReader;
     private PrintWriter printWriter;
     private boolean condition = true;
 
-    Client(ServerSocket serverSocket, int sessionID){
+    ClientConnect(ServerSocket serverSocket, int sessionID){
         try {
             Socket clientSocket;
             clientSocket = serverSocket.accept();

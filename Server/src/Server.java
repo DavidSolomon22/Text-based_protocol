@@ -29,9 +29,9 @@ public class Server {
 
         generate_sessionID();
 
-        Client client1 = new Client(serverSocket, sessionID);
+        ClientConnect clientConnect = new ClientConnect(serverSocket, sessionID);
 
-        Thread t1 = new Thread(client1);
+        Thread t1 = new Thread(clientConnect);
 
         t1.start();
 

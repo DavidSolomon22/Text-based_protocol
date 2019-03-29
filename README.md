@@ -5,7 +5,7 @@ Client app provides us Command Line Interface where we can make some calculation
 
 Below we can see example communication session.
 
-![alt text](https://raw.githubusercontent.com/DavidSolomon22/Text-based_protocol/master/12.jpg)
+![alt text](https://raw.githubusercontent.com/DavidSolomon22/Text-based_protocol/master/Example communication session.jpg)
 
 Marked in blue - packets sent by server.
 Marked in red - packets sent by client.
